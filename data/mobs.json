@@ -1,0 +1,97 @@
+"mobs": [
+    {
+        "name": "bat",
+    	"health": 1,
+    	"movement": 2
+    },
+    {
+        "name": "spider",
+    	"health": 1,
+    	"movement": 1,
+    	"skills": {
+            "combat": [
+                {
+		            "name": "venom_strike"
+                }
+            ]
+    	}
+    },
+    {
+        "name": "goblin",
+    	"health": 1,
+    	"movement": 1,
+        "skills": {
+            "combat": [
+                {
+                    "name": "pick_pocket"
+                }
+            ]
+        }
+    },
+    {
+        "name": "goblin_guardian",
+    	"health": 2,
+        "movement": 2,
+    	"skills": {}
+    },
+    {
+        "name": "golem_guardian",
+    	"health": 2,
+    	"movement": 1,
+    	"skills": {}
+    },
+    {
+        "name": "werewolf",
+    	"health": 2,
+    	"movement": 2,
+        "skills": {
+            "combat": [
+                {
+                    "name": "lycanthropy"
+                }
+            ]
+        }
+    },
+    {
+        "name": "golem_lord",
+    	"health": 3,
+    	"movement": 1,
+    	"damage": 2
+    },
+    {
+        "name": "druid_dark",
+    	"health": 3,
+        "movement": 1,
+    	"skills": {
+             "combat": [
+                 {
+                     "name": "lycanthropy"
+                 }
+             ]
+         }
+    },
+    {
+        "name": "goblin_general",
+        "health": 3,
+        "movement": 1,
+        "damage": 2
+    },
+    {
+        "name": "goblin_king",
+        "health": 4,
+        "movement": 1,
+        "damage": 2
+    },
+    {
+        "name": "scorpion",
+        "health": 2,
+        "movement": 1,
+        "skills": {
+             "combat": [
+                 {
+                     "name": "venom_attack"
+                 }
+             ]
+         }
+    }
+}

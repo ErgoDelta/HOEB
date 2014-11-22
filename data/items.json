@@ -1,0 +1,143 @@
+"items": [
+    {
+        "name": "potion_life",
+        "consumable": true,
+        "skills": {
+            "non_combat": [
+                {
+                    "name": "bless"
+                }
+            ]
+        }
+    },
+    {
+        "name": "potion_luck",
+        "consumable": true,
+        "skills": {
+            "non_combat": [
+                {
+                    "name": "re_roll"
+                }
+            ]
+        }
+    },
+    {
+        "name": "potion_speed",
+        "consumable": true,
+        "skills": {
+            "non_combat": [
+                {
+                    "name": "movment"
+                }
+            ]
+        }
+    },
+    {
+        "name": "potion_strength",
+        "consumable": true,
+        "skills": {
+            "non_combat": [
+                {
+                    "name": "combat_skill"
+                }
+            ]
+        }
+    },
+    {
+        "name": "potion_defense",
+        "consumable": true,
+        "skills": {
+            "non_combat": [
+                {
+                    "name": "invulnerability"
+                }
+            ]
+        }
+    },
+    {
+        "name": "axe",
+        "skills": {
+            "combat": [
+                {
+                    "name": "whirlwind"
+                }
+            ]
+        }
+    },
+    {
+        "name": "bow",
+        "skills": {
+            "combat": [
+                {
+                    "name": "true_shot"
+                }
+            ]
+        }
+    },
+    {
+        "name": "dagger",
+        "skills": {
+            "combat": [
+                {
+                    "name": "pick_pocket"
+                }
+            ]
+        }
+    },
+    {
+        "name": "staff",
+        "skills": {
+            "combat": [
+                {
+                    "name": "bless"
+                }
+            ]
+        }
+    },
+    {
+        "name": "sword",
+        "skills": {
+            "combat": [
+                {
+                    "name": "charge"
+                }
+            ]
+        }
+    },
+    {
+        "name": "wand",
+        "skills": {
+            "combat": [
+                {
+                    "name": "flash"
+                }
+            ]
+        }
+    },
+    {
+        "name": "torch",
+        "skills": {
+            "passive": [
+                {
+                    "name": "movement",
+                    "speed": 1
+                },
+                {
+                    "name": "heal",
+                    "health": 2
+                }
+            ]
+        }
+    },
+    {
+        "name": "key",
+        "consumable": true,
+        "skills": {
+            "non_combat": [
+                {
+                    "name": "unlock"
+                }
+            ]
+        }
+    },
+]
