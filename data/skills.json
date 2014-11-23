@@ -1,0 +1,58 @@
+"skills": [
+	{
+		"name": "flash",
+		"type": "combat"
+	},
+	{
+		"name": "whirlwind",
+		"type": "combat"
+	},
+	{
+		"name": "true_shot",
+		"type": "combat"
+	},
+	{
+		"name": "pick_pocket",
+		"type": "combat"
+	},
+	{
+		"name": "charge",
+		"type": "combat"
+	},
+	{
+		"name": "roar",
+		"type": "non_combat"
+	},
+	{
+		"name": "bless",
+		"type": "non_combat"
+	},
+	{
+		"name": "disarm_trap",
+		"type": "non_combat"
+	},
+	{
+		"name": "tame",
+		"type": "non_combat"
+	},
+	{
+		"name": "pick_pocket",
+		"type": "combat"
+	},
+	{
+		"name": "pick_pocket",
+		"type": "combat"
+	},
+	{
+		"name": "pick_pocket",
+		"type": "combat"
+	},
+	{
+		"name": "pick_pocket",
+		"type": "combat"
+	},
+	{
+		"name": "charge",
+		"type": "combat"
+	}
+]
