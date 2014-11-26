@@ -1,0 +1,92 @@
+[
+    {
+        "name": "barbarian",
+        "skills": {
+            "combat": [
+                {
+                    "name":"whirlwind"
+                }
+            ],
+            "non_combat": [
+                {
+                    "name": "roar"
+                }
+            ]
+        }
+    },
+    {
+        "name": "druid",
+        "skills": {
+            "combat": [
+                {
+                    "name": "tame"
+                }
+            ],
+            "non_combat": [
+                {
+                    "name": "heal"
+                }
+            ]
+        }
+    },
+    {
+        "name":"knight",
+        "skills": {
+            "combat": [
+                {
+                    "name":"charge"
+                }
+            ],
+            "non_combat": [
+                {
+                    "name":"bless"
+                }
+            ]
+        }
+    },
+    {
+        "name": "ranger",
+        "skills": {
+            "combat": [
+                {
+                    "name": "true_shot"
+                }
+            ],
+            "non_combat": [
+                {
+                    "name": "flight_feet"
+                }
+            ]
+        }
+    },
+    {
+        "name": "rouge",
+        "skills": {
+            "combat": [
+                {
+                    "name": "pick_pocket"
+                }
+            ],
+            "non_combat": [
+                {
+                    "name": "trap_disarm"
+                }
+            ]
+        }
+    },
+    {
+        "name": "wizard",
+        "skills": {
+            "combat": [
+                {
+                    "name": "flash"
+                }
+            ],
+            "non-combat": [
+                {
+                    "name": "transmute"
+                }
+            ]
+        }
+    }
+]

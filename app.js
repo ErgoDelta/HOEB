@@ -5,8 +5,12 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
-var routes = require('./routes/index');
-var users = require('./routes/users');
+
+var fixtures = require('./routes/fixtures');
+var heroes = require('./routes/heroes');
+var items = require('./routes/items');
+var mobs = require('./routes/mobs');
+var skills = require('./routes/skills');
 
 var app = express();
 
@@ -23,8 +27,7 @@ app.use(cookieParser());
 app.use(require('less-middleware')(path.join(__dirname, 'public')));
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use('/', routes);
-app.use('/users', users);
+app.use(fixtures, heroes, items, mobs, skills);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
