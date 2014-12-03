@@ -44,30 +44,7 @@ io.on('connection', function (socket) {
     socket.on('disconnect', function () {
         player_manager.removePlayer(socket);
     });
-
-    /*
-    socket.on('equip', function (data) {
-        equip_processor.process(socket, data);
-    });
-
-    socket.on('unequip', function (data) {
-        unequip_processor.process(socket, data);
-    });
-
-    socket.on('use item', function (data) {
-        use_item_processor.process(socket, data);
-    });
-
-    socket.on('use skill', function (data) {
-        use_skill_processor.process(socket, data);
-    });
-    */
 });
-
-setInterval(function () {
-    'use strict';
-
-}, 20);
 
 http.listen(5000, function () {
     'use strict';
