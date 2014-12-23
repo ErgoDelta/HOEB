@@ -1,9 +1,14 @@
 
 var Player = function () {
+    var id = parseInt(Math.random());
     var health = 0;
     var i = 0;
     var j = 0;
     var movesRemaining = 0;
+
+    this.getId = function() {
+      return id;
+    }
 
     this.setMovesRemaining = function (amount) {
         movesRemaining = amount;
@@ -38,6 +43,11 @@ var Player = function () {
         j = nj;
     }
 
+    this.setLocationPoint = function(point) {
+      i = point.i;
+      j = point.j;
+    }
+
     this.decrementMovesRemaining = function () {
         movesRemaining -= 1;
     }
@@ -47,6 +57,14 @@ var Player = function () {
             i: i,
             j: j
         };
+    }
+
+    this.toJSON = function () {
+      return {
+        id: this.getId(),
+        location: this.getLocation(),
+        alive: this.isAlive()
+      };
     }
 };
 

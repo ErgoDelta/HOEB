@@ -9,6 +9,7 @@ var MobManager = function () {
     var MOBS_PER_LEVEL = 3;
 
     this.spawnMobs = function (level) {
+      console.log('Spawning Mobs');
         mobs = [];
         var map = map_manager.getMap();
 
@@ -21,6 +22,7 @@ var MobManager = function () {
     };
 
     this.makeMobsAct = function () {
+      console.log('Moving Mobs Accross Map...');
         for (var i = 0; i < mobs.length; i++) {
             var mob = mobs[i];
             mob.act();

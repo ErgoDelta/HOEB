@@ -23,7 +23,7 @@ if (!port) {
 
 io.on('connection', function (socket) {
     'use strict';
-
+    console.log('Connection');
     if (socket_manager.isFull()) {
         socket.emit("server full", {});
         player_manager.removePlayer(socket);
@@ -34,15 +34,20 @@ io.on('connection', function (socket) {
     }
 
     socket.on('end turn', function (data) {
+      console.log('Ending Turn');
         end_turn_event.process(socket, data);
     });
 
     socket.on('move', function (data) {
+      console.log('Moving')
         move_event.process(socket, data);
+        game_state_manager.update();
     });
 
     socket.on('disconnect', function () {
+      console.log('Disconnection');
         player_manager.removePlayer(socket);
+        game_state_manager.update();
     });
 });
 
